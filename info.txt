@@ -1,0 +1,20 @@
+verbose_name
+name
+primary_key
+max_length
+unique
+blank
+null
+db_index
+rel: Used for related fields (like ForeignKey). For advanced use only.
+default
+editable
+serialize: If False, the field will not be serialized when the model is passed to Django’s serializers. Defaults to True.
+unique_for_date
+unique_for_month
+unique_for_year
+choices
+help_text
+db_column
+db_tablespace: Only for index creation, if the backend supports tablespaces. You can usually ignore this option.
+auto_created:
